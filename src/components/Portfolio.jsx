@@ -5,14 +5,6 @@ import dice from "../assets/portfolio/dice_SS.jpg";
 import encrypt from "../assets/portfolio/encrypt.jpg";
 import gg from"../assets/portfolio/Guessing Game.jpg";
 import simon from "../assets/portfolio/simon game pic.jpg";
-import sicCalci from "../assets/portfolio/scientific calculator.jpg"
-//import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-//import installNode from "../assets/portfolio/installNode.jpg";
-//import navbar from "../assets/portfolio/navbar.jpg";
-//import reactParallax from "../assets/portfolio/reactParallax.jpg";
-//import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-//import reactWeather from "../assets/portfolio/reactWeather.jpg";
-
 
 const Portfolio = () => {
   const portfolios = [
@@ -126,30 +118,13 @@ const Portfolio = () => {
         if (newWindow) newWindow.opener = null
       }
     },
-    {
-        id: 7,
-        src: sicCalci,
-        desc:<p>SCIENTIFIC CALCULATOR</p>,
-
-        handleClick(){
-          let demo='https://tailwindcss.com/docs/responsive-design'
-          const newWindow = window.open(demo, '_blank', 'noopener,noreferrer')
-    if (newWindow) newWindow.opener = null
-  
-        },
-       
-        openInNewTab () {
-          let url='https://github.com/Priiyaa/calculator'
-        const newWindow=  window.open(url, '_blank', 'noreferrer');
-          if (newWindow) newWindow.opener = null
-        }
-      },
+ 
   ];
 
   return (
     <div
       name="portfolio"
-      className=" bg-gradient-to-b from-black to-gray-800 w-full text-white md:max-h-screen"
+      className=" bg-gradient-to-b from-black to-gray-800 w-full text-white "
     >
         <br />
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">

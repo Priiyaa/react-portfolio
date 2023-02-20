@@ -11,26 +11,16 @@ import tailwind from "../assets/tailwind.png";
 import mongo from "../assets/mongo.png"
 import skt from "../assets/skt.png";
 import ml2 from "../assets/machine-learning.png";
+import hcj from "../assets/hcj.png"
 const Experiencs = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
+      src: hcj,
+      title: "HTML/CSS/JavaScript",
       style: "shadow-orange-500",
     },
-    {
-      id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
-    },
+
     {
       id: 4,
       src: reactImage,
@@ -54,12 +44,6 @@ const Experiencs = () => {
       src: ml2,
       title: "Machine-Learning",
       style: "shadow-pink-400",
-    },
-    {
-      id: 8,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-400",
     },
     {
         id:9,
@@ -86,12 +70,12 @@ const Experiencs = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black  w-full h-screen pt-20 "
+      className="bg-gradient-to-b from-gray-800 to-black   pt-20 "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full max-h-200 text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
+            Skills
           </p>
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
