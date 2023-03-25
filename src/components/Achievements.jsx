@@ -1,7 +1,5 @@
 import React from "react";
-import award from "../assets/award.png";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-scroll";
+
 
 
 const Achievements = () => {

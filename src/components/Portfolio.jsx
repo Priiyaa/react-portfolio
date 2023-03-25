@@ -1,9 +1,9 @@
 import React from "react";
 import connect4 from "../assets/portfolio/connect4.jpg";
-import calculator from "../assets/portfolio/calculator.jpg";
+
 import dice from "../assets/portfolio/dice_SS.jpg";
 import encrypt from "../assets/portfolio/encrypt.jpg";
-import gg from"../assets/portfolio/Guessing Game.jpg";
+
 import simon from "../assets/portfolio/simon game pic.jpg";
 
 const Portfolio = () => {
