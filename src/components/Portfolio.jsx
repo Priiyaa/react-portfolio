@@ -20,31 +20,13 @@ const Portfolio = () => {
       },
      
       openInNewTab () {
-        let url='https://tailwindcss.com/docs/responsive-design'
+        let url='https://github.com/Priiyaa/DAY-5/tree/master'
       const newWindow=  window.open(url, '_blank', 'noreferrer');
         if (newWindow) newWindow.opener = null
       }
 
     },
-    {
-      id: 2,
-      src: calculator,
-
-      desc:<p>SIMPLE CALCULATOR</p>,
-
-      handleClick(){
-        let demo='https://tailwindcss.com/docs/responsive-design'
-        const newWindow = window.open(demo, '_blank', 'noopener,noreferrer')
-  if (newWindow) newWindow.opener = null
-
-      },
-     
-      openInNewTab () {
-        let url='https://github.com/Priiyaa/calculator/tree/master'
-      const newWindow=  window.open(url, '_blank', 'noreferrer');
-        if (newWindow) newWindow.opener = null
-      }
-    },
+  
     {
       id: 3,
       src: dice,
@@ -58,7 +40,7 @@ const Portfolio = () => {
       },
      
       openInNewTab () {
-        let url='https://tailwindcss.com/docs/responsive-design'
+        let url='https://github.com/Priiyaa/Dice-Game/tree/master'
       const newWindow=  window.open(url, '_blank', 'noreferrer');
         if (newWindow) newWindow.opener = null
       }
@@ -76,29 +58,12 @@ const Portfolio = () => {
       },
      //NEEDS GITHUB REPO Link
       openInNewTab () {
-        let url='https://priiyaa.github.io/DAY-4/'
+        let url='https://github.com/Priiyaa/DAY-4/tree/master'
       const newWindow=  window.open(url, '_blank', 'noreferrer');
         if (newWindow) newWindow.opener = null
       }
     },
-    {
-      id: 5,
-      src: gg,
-      desc:<p>NUMBER GUESSING GAME</p>,
-
-      handleClick(){
-        let demo='https://tailwindcss.com/docs/responsive-design'
-        const newWindow = window.open(demo, '_blank', 'noopener,noreferrer')
-  if (newWindow) newWindow.opener = null
-
-      },
-     
-      openInNewTab () {
-        let url='https://github.com/Priiyaa/guessing-game/tree/master'
-      const newWindow=  window.open(url, '_blank', 'noreferrer');
-        if (newWindow) newWindow.opener = null
-      }
-    },
+   
     {
       id: 6,
       src: simon,
@@ -113,7 +78,7 @@ const Portfolio = () => {
       },
      
       openInNewTab () {
-        let url='https://tailwindcss.com/docs/responsive-design'
+        let url='https://github.com/Priiyaa/Simon-Game/tree/master'
       const newWindow=  window.open(url, '_blank', 'noreferrer');
         if (newWindow) newWindow.opener = null
       }

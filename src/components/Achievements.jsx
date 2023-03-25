@@ -39,7 +39,7 @@ const Achievements = () => {
           
             <li> Successful participation in JWoC ( JGEC Winter of Code) 2022 
             with <b>4+ merged pull request</b> on GitHub</li><br/>
-            <li> PWOC | PEC winter of code, 2023</li>
+          
                
             </div>
           </p>
