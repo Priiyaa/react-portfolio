@@ -1,7 +1,7 @@
 
 # Deployed Site
 Click the below link to view my portfolio.<br>
-https://celadon-kheer-8dc5de.netlify.app/
+[https://celadon-kheer-8dc5de.netlify.app/](https://priya-mittal.netlify.app/)
 
 # Getting Started with Create React App
 
